@@ -5,16 +5,7 @@ An elliptical slider for Android [Jetpack Compose](https://developer.android.com
 <img src="/art/screenshot-default.gif" height=600 alt="Screenshot"> <img src="/art/screenshot-ellipse.gif" height=600 alt="Screenshot">
 
 ## Getting Started
-The latest build is available via [JitPack](https://jitpack.io/#com.unary/circularslider). Simply add the repository to your `settings.gradle.kts` and the library dependency to your app `build.gradle.kts`.
-```
-dependencyResolutionManagement {
-    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
-    repositories {
-        // ...
-        maven { url = uri("https://jitpack.io") }
-    }
-}
-```
+The latest build is available at Maven Central (a default repository) and also [JitPack](https://jitpack.io/#com.unary/circularslider).  Simply add the the library dependency to your app `build.gradle.kts`.
 ```
 dependencies {
     // ...
